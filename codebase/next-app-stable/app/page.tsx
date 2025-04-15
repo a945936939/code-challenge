@@ -24,7 +24,7 @@ type Account = {
  * - Account filtering by type (ALL, ELECTRICITY, GAS)
  * - Payment modal integration
  * - Loading state handling
- * - Responsive design
+ *
  */
 export default function Home() {
   /**
@@ -176,6 +176,8 @@ export default function Home() {
   );
 
   // Main render
+  // * Currently, if we run npm start, we might not be able to see the loading model because it is too fase.
+
   return (
     <main className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-2xl mx-auto px-4 space-y-6">
